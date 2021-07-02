@@ -8,7 +8,7 @@ public Ticket(int tickets,int roundtrip){
         this.roundtrip=roundtrip;
 }
     public void print(){
-    int amount= tickets*1000 + roundtrip*800;
+    int amount= (int)tickets*1000 + roundtrip*800;
         System.out.println("Total tickets: " + tickets + "\n" + "Round-trip: " + roundtrip + "\n" +
                 "Total: " + amount );
     }

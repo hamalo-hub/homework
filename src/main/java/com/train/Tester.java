@@ -9,9 +9,6 @@ public class Tester {
         while(tickets!=-1){
             System.out.println("Please enter number of tickets:" );
             tickets=scanner.nextInt();
-            if(tickets==-1){
-                break;
-            }
             System.out.println("How many round-trip tickets: ");
             int roundtrip= scanner.nextInt();
             Ticket ticket=new Ticket(tickets,roundtrip);

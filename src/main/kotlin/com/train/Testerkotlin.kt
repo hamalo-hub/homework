@@ -19,7 +19,7 @@ fun main() {
     }
 }
 class Tickets(var tickets:Int,var roundtrip:Int){
-   fun amount() = tickets * 1000 + roundtrip * 800
+   fun amount() = (tickets-roundtrip)*1000+(roundtrip*2000)*0.9
     fun print(){
         println("Total tickets: $tickets\n" + "Round-trip: $roundtrip\n" +
                 "Total:  ${amount()}" )
