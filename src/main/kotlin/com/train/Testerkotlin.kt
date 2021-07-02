@@ -8,9 +8,6 @@ fun main() {
     while (tickets != -1) {
         println("Please enter number of tickets:")
         tickets = scanner.nextInt()
-        if (tickets == -1) {
-            break
-        }
         println("How many round-trip tickets: ")
         var roundtrip=scanner.nextInt()
         val ticket= Tickets(tickets,roundtrip)
